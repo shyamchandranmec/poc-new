@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css'/>
+</head>
+<body>
+<%- output %>
+
+<script src="/bower/fermata-0.10.8.js"></script>
+<script src="/bower/riotjs/riot.js"></script>
+<script src="/tags/home-page.js"></script>
+<script src="/tags/restaurant-reg-form.js"></script>
+<script src="/tags/components-list.js"></script>
+<script src="/tags/component-card.js"></script>
+
+<script>
+    var data = <%- JSON.stringify(data)%>;
+    riot.mount("home-page", data);
+</script>
+</body>
+</html>
