@@ -11,7 +11,7 @@
     "name": "POC API Documentation",
     "version": "0.0.2",
     "template": {
-      "forceLanguage":"en"
+      "forceLanguage": "en"
     }
   },
   "dependencies": {
@@ -37,6 +37,7 @@
     "q": "^1.4.1",
     "require-all": "^2.0.0",
     "require-dir": "^0.3.0",
+    "riot": "^2.3.18",
     "serve-favicon": "~2.3.0",
     "slug": "^0.9.1",
     "underscore": "^1.8.3"
