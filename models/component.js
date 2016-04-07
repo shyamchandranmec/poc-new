@@ -5,7 +5,7 @@
 "use strict";
 var mongoose = require("mongoose");
 var Q = require("q");
-var logger = require('log4js').getLogger();
+var logger = require("log4js").getLogger();
 var rs = require("../services/responseService");
 var componentSchema = mongoose.Schema({
     name: String,

@@ -39,6 +39,7 @@ Restaurant.addRestaurant = function (restaurantDetails) {
         restaurantDetails.selectedComponents = [];
     }
     logger.info(`Creating new restaurant ${name}`);
+    logger.info(`Adding user to department, userId, deptId, ${userId} , ${deptId}`);
     return Q.promise((resolve, reject) => {
         let restaurant = new Restaurant(restaurantDetails);
         restaurant.save().then((restaurant)=> {
