@@ -11,3 +11,4 @@ exports.getAllComponents = function (req, res, next) {
         res.json(components)
     }).fail(err => next(err,req, res, next))
 };
+
